@@ -6,7 +6,7 @@ struct ContentView: View {
             HStack(spacing: 0) {
                 ZStack {
                     Rectangle()
-                        .fill(Color.white)
+                        .foregroundColor(.clear)
                         .frame(width: screenGeo.size.width * 0.30)
                     VStack {
                         //Calls the life point calculator
@@ -20,7 +20,7 @@ struct ContentView: View {
                 
                 ZStack {
                     Rectangle()
-                        .fill(Color.white)
+                        .foregroundColor(.clear)
                         .frame(width: screenGeo.size.width * 0.70)
                         //.border(.black)
                     TabField()
