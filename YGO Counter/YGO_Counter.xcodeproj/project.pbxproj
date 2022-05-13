@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB1C655B28297F8300638DA9 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1C655A28297F8300638DA9 /* ViewModifiers.swift */; };
+		BB1C655D282996ED00638DA9 /* LifepointCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1C655C282996ED00638DA9 /* LifepointCalculator.swift */; };
+		BB1C655F28299B3A00638DA9 /* SectionField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1C655E28299B3A00638DA9 /* SectionField.swift */; };
+		BB53C77128282E000095F4E6 /* SectionTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB53C77028282E000095F4E6 /* SectionTools.swift */; };
+		BB698167282ADFBB002214C7 /* CardPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB698166282ADFBB002214C7 /* CardPresets.swift */; };
+		BBC51B022827FEE7002E729F /* YGO_CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC51B012827FEE7002E729F /* YGO_CounterApp.swift */; };
+		BBC51B042827FEE7002E729F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC51B032827FEE7002E729F /* ContentView.swift */; };
+		BBC51B062827FEE8002E729F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC51B052827FEE8002E729F /* Assets.xcassets */; };
+		BBC51B092827FEE8002E729F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC51B082827FEE8002E729F /* Preview Assets.xcassets */; };
+		BBC51B132827FEE9002E729F /* YGO_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC51B122827FEE9002E729F /* YGO_CounterTests.swift */; };
+		BBC51B1D2827FEE9002E729F /* YGO_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC51B1C2827FEE9002E729F /* YGO_CounterUITests.swift */; };
+		BBC51B1F2827FEE9002E729F /* YGO_CounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC51B1E2827FEE9002E729F /* YGO_CounterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBC51B0F2827FEE9002E729F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBC51AF62827FEE7002E729F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBC51AFD2827FEE7002E729F;
+			remoteInfo = YGO_Counter;
+		};
+		BBC51B192827FEE9002E729F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBC51AF62827FEE7002E729F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBC51AFD2827FEE7002E729F;
+			remoteInfo = YGO_Counter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB1C655A28297F8300638DA9 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		BB1C655C282996ED00638DA9 /* LifepointCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifepointCalculator.swift; sourceTree = "<group>"; };
+		BB1C655E28299B3A00638DA9 /* SectionField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionField.swift; sourceTree = "<group>"; };
+		BB53C77028282E000095F4E6 /* SectionTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTools.swift; sourceTree = "<group>"; };
+		BB698166282ADFBB002214C7 /* CardPresets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPresets.swift; sourceTree = "<group>"; usesTabs = 0; };
+		BBC51AFE2827FEE7002E729F /* YGO Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YGO Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC51B012827FEE7002E729F /* YGO_CounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YGO_CounterApp.swift; sourceTree = "<group>"; };
+		BBC51B032827FEE7002E729F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBC51B052827FEE8002E729F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBC51B082827FEE8002E729F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBC51B0E2827FEE9002E729F /* YGO_CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YGO_CounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC51B122827FEE9002E729F /* YGO_CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YGO_CounterTests.swift; sourceTree = "<group>"; };
+		BBC51B182827FEE9002E729F /* YGO_CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YGO_CounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC51B1C2827FEE9002E729F /* YGO_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YGO_CounterUITests.swift; sourceTree = "<group>"; };
+		BBC51B1E2827FEE9002E729F /* YGO_CounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YGO_CounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBC51AFB2827FEE7002E729F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC51B0B2827FEE9002E729F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC51B152827FEE9002E729F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB53C76E28282DB60095F4E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BBC51B032827FEE7002E729F /* ContentView.swift */,
+				BB53C77028282E000095F4E6 /* SectionTools.swift */,
+				BB1C655C282996ED00638DA9 /* LifepointCalculator.swift */,
+				BB1C655E28299B3A00638DA9 /* SectionField.swift */,
+				BB698166282ADFBB002214C7 /* CardPresets.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB53C76F28282DD20095F4E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BBC51B052827FEE8002E729F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BB53C77B28286E5D0095F4E6 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				BB1C655A28297F8300638DA9 /* ViewModifiers.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		BBC51AF52827FEE7002E729F = {
+			isa = PBXGroup;
+			children = (
+				BBC51B002827FEE7002E729F /* YGO_Counter */,
+				BBC51B112827FEE9002E729F /* YGO_CounterTests */,
+				BBC51B1B2827FEE9002E729F /* YGO_CounterUITests */,
+				BBC51AFF2827FEE7002E729F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBC51AFF2827FEE7002E729F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBC51AFE2827FEE7002E729F /* YGO Counter.app */,
+				BBC51B0E2827FEE9002E729F /* YGO_CounterTests.xctest */,
+				BBC51B182827FEE9002E729F /* YGO_CounterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBC51B002827FEE7002E729F /* YGO_Counter */ = {
+			isa = PBXGroup;
+			children = (
+				BBC51B012827FEE7002E729F /* YGO_CounterApp.swift */,
+				BB53C77B28286E5D0095F4E6 /* Modifiers */,
+				BB53C76E28282DB60095F4E6 /* Views */,
+				BB53C76F28282DD20095F4E6 /* Resources */,
+				BBC51B072827FEE8002E729F /* Preview Content */,
+			);
+			path = YGO_Counter;
+			sourceTree = "<group>";
+		};
+		BBC51B072827FEE8002E729F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BBC51B082827FEE8002E729F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBC51B112827FEE9002E729F /* YGO_CounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBC51B122827FEE9002E729F /* YGO_CounterTests.swift */,
+			);
+			path = YGO_CounterTests;
+			sourceTree = "<group>";
+		};
+		BBC51B1B2827FEE9002E729F /* YGO_CounterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBC51B1C2827FEE9002E729F /* YGO_CounterUITests.swift */,
+				BBC51B1E2827FEE9002E729F /* YGO_CounterUITestsLaunchTests.swift */,
+			);
+			path = YGO_CounterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBC51AFD2827FEE7002E729F /* YGO_Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC51B222827FEE9002E729F /* Build configuration list for PBXNativeTarget "YGO_Counter" */;
+			buildPhases = (
+				BBC51AFA2827FEE7002E729F /* Sources */,
+				BBC51AFB2827FEE7002E729F /* Frameworks */,
+				BBC51AFC2827FEE7002E729F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YGO_Counter;
+			productName = YGO_Counter;
+			productReference = BBC51AFE2827FEE7002E729F /* YGO Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBC51B0D2827FEE9002E729F /* YGO_CounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC51B252827FEE9002E729F /* Build configuration list for PBXNativeTarget "YGO_CounterTests" */;
+			buildPhases = (
+				BBC51B0A2827FEE9002E729F /* Sources */,
+				BBC51B0B2827FEE9002E729F /* Frameworks */,
+				BBC51B0C2827FEE9002E729F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBC51B102827FEE9002E729F /* PBXTargetDependency */,
+			);
+			name = YGO_CounterTests;
+			productName = YGO_CounterTests;
+			productReference = BBC51B0E2827FEE9002E729F /* YGO_CounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBC51B172827FEE9002E729F /* YGO_CounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC51B282827FEE9002E729F /* Build configuration list for PBXNativeTarget "YGO_CounterUITests" */;
+			buildPhases = (
+				BBC51B142827FEE9002E729F /* Sources */,
+				BBC51B152827FEE9002E729F /* Frameworks */,
+				BBC51B162827FEE9002E729F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBC51B1A2827FEE9002E729F /* PBXTargetDependency */,
+			);
+			name = YGO_CounterUITests;
+			productName = YGO_CounterUITests;
+			productReference = BBC51B182827FEE9002E729F /* YGO_CounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBC51AF62827FEE7002E729F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BBC51AFD2827FEE7002E729F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					BBC51B0D2827FEE9002E729F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BBC51AFD2827FEE7002E729F;
+					};
+					BBC51B172827FEE9002E729F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BBC51AFD2827FEE7002E729F;
+					};
+				};
+			};
+			buildConfigurationList = BBC51AF92827FEE7002E729F /* Build configuration list for PBXProject "YGO_Counter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBC51AF52827FEE7002E729F;
+			productRefGroup = BBC51AFF2827FEE7002E729F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBC51AFD2827FEE7002E729F /* YGO_Counter */,
+				BBC51B0D2827FEE9002E729F /* YGO_CounterTests */,
+				BBC51B172827FEE9002E729F /* YGO_CounterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBC51AFC2827FEE7002E729F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC51B092827FEE8002E729F /* Preview Assets.xcassets in Resources */,
+				BBC51B062827FEE8002E729F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC51B0C2827FEE9002E729F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC51B162827FEE9002E729F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBC51AFA2827FEE7002E729F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1C655B28297F8300638DA9 /* ViewModifiers.swift in Sources */,
+				BB1C655D282996ED00638DA9 /* LifepointCalculator.swift in Sources */,
+				BB53C77128282E000095F4E6 /* SectionTools.swift in Sources */,
+				BBC51B042827FEE7002E729F /* ContentView.swift in Sources */,
+				BB1C655F28299B3A00638DA9 /* SectionField.swift in Sources */,
+				BB698167282ADFBB002214C7 /* CardPresets.swift in Sources */,
+				BBC51B022827FEE7002E729F /* YGO_CounterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC51B0A2827FEE9002E729F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC51B132827FEE9002E729F /* YGO_CounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC51B142827FEE9002E729F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC51B1D2827FEE9002E729F /* YGO_CounterUITests.swift in Sources */,
+				BBC51B1F2827FEE9002E729F /* YGO_CounterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBC51B102827FEE9002E729F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBC51AFD2827FEE7002E729F /* YGO_Counter */;
+			targetProxy = BBC51B0F2827FEE9002E729F /* PBXContainerItemProxy */;
+		};
+		BBC51B1A2827FEE9002E729F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBC51AFD2827FEE7002E729F /* YGO_Counter */;
+			targetProxy = BBC51B192827FEE9002E729F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BBC51B202827FEE9002E729F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBC51B212827FEE9002E729F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBC51B232827FEE9002E729F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YGO_Counter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.YGO-Counter";
+				PRODUCT_NAME = "YGO Counter";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBC51B242827FEE9002E729F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YGO_Counter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.YGO-Counter";
+				PRODUCT_NAME = "YGO Counter";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBC51B262827FEE9002E729F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.YGO-CounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YGO_Counter.app/YGO_Counter";
+			};
+			name = Debug;
+		};
+		BBC51B272827FEE9002E729F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.YGO-CounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YGO_Counter.app/YGO_Counter";
+			};
+			name = Release;
+		};
+		BBC51B292827FEE9002E729F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.YGO-CounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YGO_Counter;
+			};
+			name = Debug;
+		};
+		BBC51B2A2827FEE9002E729F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.YGO-CounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YGO_Counter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBC51AF92827FEE7002E729F /* Build configuration list for PBXProject "YGO_Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC51B202827FEE9002E729F /* Debug */,
+				BBC51B212827FEE9002E729F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC51B222827FEE9002E729F /* Build configuration list for PBXNativeTarget "YGO_Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC51B232827FEE9002E729F /* Debug */,
+				BBC51B242827FEE9002E729F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC51B252827FEE9002E729F /* Build configuration list for PBXNativeTarget "YGO_CounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC51B262827FEE9002E729F /* Debug */,
+				BBC51B272827FEE9002E729F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC51B282827FEE9002E729F /* Build configuration list for PBXNativeTarget "YGO_CounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC51B292827FEE9002E729F /* Debug */,
+				BBC51B2A2827FEE9002E729F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBC51AF62827FEE7002E729F /* Project object */;
+}
