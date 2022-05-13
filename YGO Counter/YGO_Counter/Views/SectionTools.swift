@@ -16,14 +16,14 @@ struct TabTools: View {
 //                }
                 ZStack {
                     Rectangle()
-                        .foregroundColor(Color(red: 1.0, green: 0.0, blue: 0.0, opacity: 0.0))
+                        .foregroundColor(.clear)
                     Text("Coin Flip")
                         .modifier(ToolLabel())
-                        //.foreground(.pink)
+                        
                 }
                 ZStack {
                     Rectangle()
-                        .foregroundColor(Color(red: 1.0, green: 0.0, blue: 0.0, opacity: 0.0))
+                        .foregroundColor(.clear)
                     Text("Dice Roll")
                         .modifier(ToolLabel())
                 }
@@ -44,7 +44,7 @@ struct TabTools: View {
 //                }
                 ZStack {
                     Rectangle()
-                        .foregroundColor(Color(red: 1.0, green: 0.0, blue: 0.0, opacity: 0.0))
+                        .foregroundColor(.clear)
                     Button(action: {
                         let coinRng = Int.random(in: 1...2)
                         if coinRng == 1 {
@@ -58,7 +58,7 @@ struct TabTools: View {
                 }
                 ZStack {
                     Rectangle()
-                        .foregroundColor(Color(red: 1.0, green: 0.0, blue: 0.0, opacity: 0.0))
+                        .foregroundColor(.clear)
                     Button(action: {
                         let diceRng = Int.random(in: 1...6)
                         diceOut = "die.face." + String(diceRng) + ".fill"
