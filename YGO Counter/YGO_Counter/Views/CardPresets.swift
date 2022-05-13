@@ -8,9 +8,12 @@ struct CardMonster: View {
             //Level Tracker
             VStack(spacing: 0) {
                 Image(systemName: "star.circle.fill")
+                    .foregroundColor(.black)
                 ZStack {
                     Text(String(Level))
                         .font(.system(size: 20))
+                        .foregroundColor(.black)
+                        
                     // Buttons for level tracker
                     HStack {
                         Button( action: {
@@ -37,9 +40,11 @@ struct CardMonster: View {
             //Counter Tracker
             VStack(spacing: 0) {
                 Image(systemName: "arrowtriangle.down.circle.fill")
+                    .foregroundColor(.black)
                 ZStack {
                     Text(String(Counter))
                         .font(.system(size: 20))
+                        .foregroundColor(.black)
                     // Buttons for Counter tracker
                     HStack {
                         Button( action: {
@@ -72,9 +77,11 @@ struct CardBackrow: View {
         //Counter Tracker
         VStack(spacing: 0) {
             Image(systemName: "arrowtriangle.down.circle.fill")
+                .foregroundColor(.black)
             ZStack {
                 Text(String(Counter))
                     .font(.system(size: 20))
+                    .foregroundColor(.black)
                 // Buttons for Counter tracker
                 HStack {
                     Button( action: {
@@ -93,6 +100,7 @@ struct CardBackrow: View {
                     }, label: {
                         Image(systemName: "plus.rectangle.portrait")
                             .modifier(CardModifierIcon())
+                            .foregroundColor(.black)
                     })
                 }
             }
