@@ -13,5 +13,5 @@ This project attempts to create an iOS companion app for the popular trading car
 
 ## Tools & Resources 
 XCode - Version 13.2.1 <br/>
-    Deployment target of iOS 15.2 <br/>
+:Deployment target of iOS 15.2 <br/>
 SF Symbols - iconography library from Apple
