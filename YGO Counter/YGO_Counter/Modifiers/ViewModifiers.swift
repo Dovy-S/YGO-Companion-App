@@ -74,8 +74,8 @@ struct CardFieldFormat: ViewModifier {
 struct CardBlankFormat: ViewModifier {
     func body(content: Content) -> some View {
         content
-            .foregroundColor(.white)
-            .border(.white)
+            .foregroundColor(.clear)
+            //.border(.white)
     }
 }
 struct CardModifierIcon: ViewModifier {
